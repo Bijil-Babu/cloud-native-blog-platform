@@ -24,6 +24,7 @@ A cloud-native application demonstrating a complete **DevSecOps pipeline**, inte
 ---
 
 ## 🏗️ Architecture
+```
 Source Code (GitHub)
         ↓
 CI/CD Pipeline (GitHub Actions)
@@ -37,10 +38,11 @@ Container Registry
 Kubernetes Cluster
         ↓
 ArgoCD (GitOps Deployment)
-
+```
 ---
 
 ## 📁 Project Structure
+```
 cloud-native-blog-platform/
 ├── .github/
 │   └── workflows/        # CI/CD pipelines
@@ -51,7 +53,7 @@ cloud-native-blog-platform/
 ├── deploy/               # Deployment scripts
 ├── docker-compose.yml
 └── README.md
-
+```
 ---
 
 ## ☸️ Kubernetes Deployment
