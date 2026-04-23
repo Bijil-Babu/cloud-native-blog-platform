@@ -4,11 +4,11 @@ dist/
 *.log
 
 # Terraform
-terraform/.terraform/
-terraform/*.tfstate
-terraform/*.tfstate.backup
-terraform/.terraform.lock.hcl
-terraform/crash.log
+Terraform/.terraform/
+Terraform/*.tfstate
+Terraform/*.tfstate.backup
+Terraform/.terraform.lock.hcl
+Terraform/crash.log
 
 # Docker
 *.tar
