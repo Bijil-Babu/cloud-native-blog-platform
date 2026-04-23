@@ -15,7 +15,8 @@ A cloud-native application demonstrating a complete **DevSecOps pipeline**, inte
 - 🚀 CI/CD pipeline using **GitHub Actions**
 - 🐳 Docker image build and version tagging
 - 🧹 Dockerfile linting using **Hadolint**
-- 🔍 Vulnerability scanning using **Trivy**
+- 🔍 Container vulnerability scanning using **Trivy**
+- 🔐 Infrastructure as Code (IaC) scanning using **Checkov**
 - 🔄 Automated image updates in Kubernetes manifests
 - ⚙️ GitOps-based deployment using **ArgoCD**
 - ☸️ Continuous sync between Git and Kubernetes cluster
