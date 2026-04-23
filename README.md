@@ -44,11 +44,11 @@ ArgoCD (GitOps Deployment)
 cloud-native-blog-platform/
 ├── .github/
 │   └── workflows/        # CI/CD pipelines
-├── k8s/                 # Kubernetes manifests
-├── Terraform/           # Infrastructure as Code
-├── backend/             # Backend service
-├── frontend/            # Frontend service
-├── deploy/              # Deployment scripts
+├── k8s/                  # Kubernetes manifests
+├── Terraform/            # Infrastructure as Code
+├── backend/              # Backend service
+├── frontend/             # Frontend service
+├── deploy/               # Deployment scripts
 ├── docker-compose.yml
 └── README.md
 
