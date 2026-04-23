@@ -25,29 +25,30 @@ A cloud-native application demonstrating a complete **DevSecOps pipeline**, inte
 
 ## 🏗️ Architecture
 Source Code (GitHub)
-↓
+        ↓
 CI/CD Pipeline (GitHub Actions)
-↓
+        ↓
 Security Scanning (Hadolint + Trivy)
-↓
+        ↓
 Docker Image Build & Tagging
-↓
+        ↓
 Container Registry
-↓
+        ↓
 Kubernetes Cluster
-↓
+        ↓
 ArgoCD (GitOps Deployment)
 
 ---
 
 ## 📁 Project Structure
 cloud-native-blog-platform/
-├── .github/workflows/ # CI/CD pipelines
-├── k8s/ # Kubernetes manifests
-├── Terraform/ # Infrastructure as Code
-├── backend/ # Backend service
-├── frontend/ # Frontend service
-├── deploy/ # Deployment scripts
+├── .github/
+│   └── workflows/        # CI/CD pipelines
+├── k8s/                 # Kubernetes manifests
+├── Terraform/           # Infrastructure as Code
+├── backend/             # Backend service
+├── frontend/            # Frontend service
+├── deploy/              # Deployment scripts
 ├── docker-compose.yml
 └── README.md
 
