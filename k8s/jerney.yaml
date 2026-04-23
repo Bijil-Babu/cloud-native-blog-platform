@@ -200,7 +200,7 @@ spec:
               echo "DB is ready!"
       containers:
         - name: backend
-          image: ghcr.io/Bijil-Babu/cloud-native-blog-platform/jerney-backend:e62f5bb
+          image: ghcr.io/Bijil-Babu/cloud-native-blog-platform/jerney-backend:7f98daa
           ports:
             - containerPort: 5000
               protocol: TCP
@@ -307,7 +307,7 @@ spec:
           effect: "NoSchedule"
       containers:
         - name: frontend
-          image: ghcr.io/Bijil-Babu/cloud-native-blog-platform/jerney-frontend:e62f5bb
+          image: ghcr.io/Bijil-Babu/cloud-native-blog-platform/jerney-frontend:7f98daa
           ports:
             - containerPort: 8080
               protocol: TCP
